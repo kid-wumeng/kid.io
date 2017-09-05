@@ -1,1 +1,1 @@
-[https://github.com/kid-wumeng/KID.io/issues](查看Issues)
+[进入Issues查看](https://github.com/kid-wumeng/KID.io/issues)
