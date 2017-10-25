@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title KID's Blog
+  link(rel="stylesheet", href="/assets/css/base.css")
+  link(rel="stylesheet", href="/assets/css/home.css")
+body
+  ul: each blog in blogs
+    li: a(href="#{ blog.path }.html") #{ blog.title }
