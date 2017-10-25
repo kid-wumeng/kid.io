@@ -55,5 +55,12 @@ fs.copySync("#{cwd}/assets", "#{cwd}/docs/assets")
 
 app = new Koa()
 app.use(serve(cwd + '/docs'))
+
+app.use((ctx, next) ->
+  if(ctx.method is 'POST' and ctx.path is '/webhooks')
+    console.log 1111
+  ctx.body = 'ok'
+)
+
 app.listen(8086)
 console.log 'KID\'s blog start ~'.green
