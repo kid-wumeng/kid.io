@@ -1,0 +1,80 @@
+body{
+  margin: 60px auto;
+}
+
+.title{
+  width: 600px;
+  font-size: 24px;
+}
+
+.subs{
+  margin-top: 14px;
+  width: 600px;
+  font-size: 14px;
+}
+
+.date{
+  margin-left: 10px;
+}
+
+.content{
+  margin-top: 32px;
+}
+
+.markdown *{
+  font-size: 14px;
+}
+
+.markdown >*:not(:last-child){
+  margin-bottom: 16px;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6{
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+.markdown p{
+  line-height: 24px;
+}
+
+.markdown > *:not(pre){
+  width: 600px;
+}
+.markdown > pre > *{
+  width: 600px;
+}
+
+.markdown ul li,
+.markdown ol li{
+  line-height: 24px;
+  margin-left: 1.5em;
+}
+
+.markdown blockquote{
+  padding: 16px 16px;
+  border-left: 4px solid #b294bb;
+}
+
+.markdown pre{
+  padding: 16px 16px;
+}
+
+.markdown code,
+.markdown code span{
+  font-size: 12px;
+}
+.markdown p  code,
+.markdown ul code,
+.markdown ol code{
+  margin: 0 1px;
+  padding: 0px 3px;
+}
+.markdown pre code span{
+  line-height: 20px;
+}

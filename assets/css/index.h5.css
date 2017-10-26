@@ -1,0 +1,42 @@
+body{
+  width: 720px;
+  margin: 60px auto;
+}
+
+.header .right{
+  margin-left: 16px;
+}
+
+.face{
+  width: 150px;
+  height: 150px;
+}
+
+.title{
+  font-size: 20px;
+}
+
+.intro{
+  margin-top: 8px;
+}
+
+.intro a{
+  margin-right: 4px;
+}
+
+.blogs{
+  margin-top: 45px;
+}
+
+.blogs li{
+  padding: 4px 0;
+}
+
+.blogs li .date{
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+.blogs li a{
+  font-size: 15px;
+}

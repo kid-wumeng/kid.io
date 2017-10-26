@@ -5,31 +5,18 @@ body{
 .title{
   box-sizing: border-box;
   margin: 0 auto;
-  width: 600px;
   text-align: center;
   font-weight: 600;
-  font-size: 24px;
 }
 
 .subs{
   margin: 0 auto;
-  margin-top: 14px;
   box-sizing: border-box;
-  width: 600px;
   text-align: center;
-  font-size: 14px;
 }
 
 .index{
   color: #5292E0;
-}
-
-.date{
-  margin-left: 10px;
-}
-
-.content{
-  margin-top: 32px;
 }
 
 .markdown{
@@ -37,38 +24,17 @@ body{
 }
 
 .markdown *{
-  font-size: 14px;
   color: #39424D;
-}
-
-.markdown >*:not(:last-child){
-  margin-bottom: 16px;
-}
-
-.markdown h1,
-.markdown h2,
-.markdown h3,
-.markdown h4,
-.markdown h5,
-.markdown h6{
-  margin-top: 45px;
-  font-size: 20px;
-}
-
-.markdown p{
-  line-height: 24px;
 }
 
 .markdown > *:not(pre){
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
 }
 .markdown > pre > *{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
 }
 
 .markdown img{
@@ -89,48 +55,24 @@ body{
   }
 }
 
-.markdown .image{
-  width: 100%;
-  img{
-    display: inline-block;
-    max-width: 100%;
-  }
-  .desc{
-    font-size: 13px;
-    color: #888;
-  }
-}
-
-.markdown ul li,
-.markdown ol li{
-  line-height: 24px;
-  margin-left: 1.5em;
-}
-
 .markdown blockquote{
   box-sizing: border-box;
-  padding: 16px 16px;
-  border-left: 4px solid #b294bb;
 }
 
 .markdown pre{
   box-sizing: border-box;
-  padding: 16px 16px;
   background-color: rgba(250, 250, 250, 1);
 }
 
 .markdown code,
 .markdown code span{
   font-family: "Monaco", "Consolas";
-  font-size: 12px;
 }
 .markdown p  code,
 .markdown ul code,
 .markdown ol code{
   display: inline-block;
   box-sizing: border-box;
-  margin: 0 1px;
-  padding: 0px 3px;
   font-weight: 600;
   color: #cc6666;
   background-color: #F8F8F8;
@@ -138,7 +80,4 @@ body{
 }
 .markdown pre code{
   color: #282a2e;
-}
-.markdown pre code span{
-  line-height: 20px;
 }
