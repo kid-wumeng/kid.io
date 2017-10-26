@@ -31,12 +31,17 @@ body{
   font-size: 20px;
 }
 
-.motto{
+.intro{
   margin-top: 8px;
 }
 
+.intro a{
+  margin-right: 4px;
+  color: #5292E0;
+}
+
 .blogs{
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 .blogs li{
@@ -47,9 +52,10 @@ body{
 .blogs li .date{
   margin-right: 12px;
   font-size: 14px;
+  color: #A2AEBA;
 }
 
 .blogs li a{
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
 }

@@ -4,7 +4,8 @@
   "author": "KID",
   "private": true,
   "scripts": {
-    "start": "node app/index.js"
+    "start": "node app/index.js",
+    "local": "node app/index.js ../blogs"
   },
   "dependencies": {
     "coffeescript": "^2.0.1",

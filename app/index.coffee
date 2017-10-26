@@ -1,32 +1,20 @@
-watch       = require('watch')
-cloneBlogs  = require('./cloneBlogs')
-parse       = require('./parse')
-clearDist   = require('./clearDist')
-renderIndex = require('./renderIndex')
-renderBlogs = require('./renderBlogs')
-copyAssets  = require('./copyAssets')
-serve       = require('./serve')
+path       = require('path')
+watch      = require('watch')
+run        = require('./run')
+copyAssets = require('./copyAssets')
+serve      = require('./serve')
 
 
 global.CWD = process.cwd()
+global.DIR = process.argv[2]
 
 
 # 初始化时
-cloneBlogs ->
-  blogs = parse()
-  clearDist()
-  copyAssets()
-  renderIndex(blogs)
-  renderBlogs(blogs)
-
+run ->
   # Github push 时
-  serve ->
-    cloneBlogs ->
-      blogs = parse()
-      clearDist()
-      copyAssets()
-      renderIndex(blogs)
-      renderBlogs(blogs)
+  serve(run)
 
 # 开发调试时
 watch.watchTree("#{CWD}/assets", copyAssets)
+# 写作调试时
+watch.watchTree(path.resolve(CWD, DIR), {ignoreDotFiles: true}, run)

@@ -18,7 +18,7 @@ module.exports = ->
 
     title = titleOrigin.replace(/\\/g, '/')
 
-    urlPath = date + '/' + titleOrigin.replace(/(\s|\\)+/g, '-')
+    urlPath = date + '/' + titleOrigin.replace(/(\s|\\|-)+/g, '-')
 
     content = fs.readFileSync("#{CWD}/blogs/#{localPath}/README.md", 'utf-8')
     content = marked(content, {
