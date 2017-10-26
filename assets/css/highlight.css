@@ -41,8 +41,24 @@
 .hljs-quote,
 .hljs-deletion,
 .hljs-meta {
-  font-size: 12px !important;
   color: #969896;
+}
+
+@media (min-width: 721px) {
+  .hljs-comment,
+  .hljs-quote,
+  .hljs-deletion,
+  .hljs-meta {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 720px) {
+  .hljs-comment,
+  .hljs-quote,
+  .hljs-deletion,
+  .hljs-meta {
+    font-size: 13px !important;
+  }
 }
 
 .hljs-keyword,

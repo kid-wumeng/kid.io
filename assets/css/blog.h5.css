@@ -1,32 +1,47 @@
 body{
-  margin: 60px auto;
+  margin: 24px auto;
+  width: 100%;
 }
 
 .title{
-  width: 600px;
-  font-size: 24px;
+  margin: 0 16px;
+  font-size: 20px;
 }
 
 .subs{
-  margin-top: 14px;
-  width: 600px;
-  font-size: 14px;
+  margin: 0 16px;
+  margin-top: 6px;
+}
+
+.index{
+  font-size: 13px;
 }
 
 .date{
-  margin-left: 10px;
+  margin-left: 8px;
+  font-size: 13px;
+  color: #A2AEBA;
 }
 
 .content{
-  margin-top: 32px;
+  margin-top: 28px;
+}
+
+#uyan_frame{
+  margin: 0 16px;
+  margin-top: 45px;
 }
 
 .markdown *{
-  font-size: 14px;
+  font-size: 15px;
+}
+
+.markdown > *{
+  box-sizing: border-box;
 }
 
 .markdown >*:not(:last-child){
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .markdown h1,
@@ -35,19 +50,16 @@ body{
 .markdown h4,
 .markdown h5,
 .markdown h6{
-  margin-top: 45px;
+  margin-top: 26px;
   font-size: 20px;
 }
 
 .markdown p{
-  line-height: 24px;
+  line-height: 25px;
 }
 
 .markdown > *:not(pre){
-  width: 600px;
-}
-.markdown > pre > *{
-  width: 600px;
+  padding: 0 16px;
 }
 
 .markdown ul li,
@@ -56,23 +68,29 @@ body{
   margin-left: 1.5em;
 }
 
+.markdown a:hover{
+  text-decoration: none;
+}
+
 .markdown blockquote{
-  padding: 16px 16px;
-  border-left: 4px solid #b294bb;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 11px 16px;
+  border-left: 4px solid #5292E0;
 }
 
 .markdown pre{
-  padding: 16px 16px;
+  max-width: 100%;
+  padding: 11px 16px;
 }
 
 .markdown code,
 .markdown code span{
-  font-size: 12px;
+  font-size: 13px;
 }
 .markdown p  code,
 .markdown ul code,
 .markdown ol code{
-  margin: 0 1px;
   padding: 0px 3px;
 }
 .markdown pre code span{

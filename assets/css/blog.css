@@ -1,5 +1,5 @@
 body{
-  margin: 60px auto;
+  box-sizing: border-box;
 }
 
 .title{
@@ -45,14 +45,13 @@ body{
 .markdown em{
   font-weight: bold;
   font-style: normal;
-  color: black !important;
 }
 
 .markdown a{
   color: #5292E0;
-  &:hover{
-    text-decoration: underline;
-  }
+}
+.markdown a:hover{
+  text-decoration: underline;
 }
 
 .markdown blockquote{
@@ -62,11 +61,13 @@ body{
 .markdown pre{
   box-sizing: border-box;
   background-color: rgba(250, 250, 250, 1);
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 .markdown code,
 .markdown code span{
-  font-family: "Monaco", "Consolas";
+  font-family: "Monaco", "Consolas", "Droid Sans Mono";
 }
 .markdown p  code,
 .markdown ul code,

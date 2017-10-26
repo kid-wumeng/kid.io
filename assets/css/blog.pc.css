@@ -10,7 +10,6 @@ body{
 .subs{
   margin-top: 14px;
   width: 600px;
-  font-size: 14px;
 }
 
 .date{
@@ -19,6 +18,12 @@ body{
 
 .content{
   margin-top: 32px;
+}
+
+#uyan_frame{
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 800px;
 }
 
 .markdown *{
@@ -58,7 +63,7 @@ body{
 
 .markdown blockquote{
   padding: 16px 16px;
-  border-left: 4px solid #b294bb;
+  border-left: 4px solid #5292E0;
 }
 
 .markdown pre{

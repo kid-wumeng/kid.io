@@ -1,40 +1,45 @@
 body{
-  width: 720px;
-  margin: 60px auto;
+  width: 100%;
+  padding: 24px;
 }
 
 .header .right{
-  margin-left: 16px;
+  margin-left: 12px;
 }
 
 .face{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .title{
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .intro{
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .intro a{
   margin-right: 4px;
+  hover{
+    text-decoration: none;
+  }
 }
 
 .blogs{
-  margin-top: 45px;
+  margin-top: 32px;
 }
 
 .blogs li{
-  padding: 4px 0;
+  padding: 6px 0;
 }
 
 .blogs li .date{
-  margin-right: 12px;
-  font-size: 14px;
+  display: block;
+  margin-bottom: 2px;
+  font-size: 12px;
 }
 
 .blogs li a{
