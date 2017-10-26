@@ -1,0 +1,62 @@
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  font-weight: 600;
+  color: #cc6666;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  font-weight: 600;
+  color: #282a2e;
+}
+
+.hljs,
+.hljs-subst {
+  font-weight: 600;
+  color: #cc6666;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  font-weight: 600;
+  color: #cc6666;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  font-size: 12px !important;
+  color: #969896;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+  font-weight: 600;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}

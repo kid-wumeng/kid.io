@@ -3,7 +3,7 @@ jade = require('jade')
 
 ### renderIndex ##
 # 渲染 index.html 并放至 dist
-# @params {object[]} blogs - {date, title, content, path}
+# @params {object[]} blogs - {date, title, content, urlPath, localPath}
 ###
 
 module.exports = (blogs) ->
@@ -14,5 +14,5 @@ module.exports = (blogs) ->
   html = render({
     blogs: blogs
   })
-  
+
   fs.writeFileSync("#{CWD}/dist/index.html", html, 'utf-8')

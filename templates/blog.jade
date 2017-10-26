@@ -3,8 +3,15 @@ html(lang="en")
 head
   meta(charset="UTF-8")
   title #{ blog.title }
-  link(rel="stylesheet" href="/assets/css/base.css")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+  meta(name="keywords" content="#{ blog.title }")
+  meta(name="description" content="#{ blog.title }")
+  link(rel="stylesheet" href="/assets/css/@.css")
   link(rel="stylesheet" href="/assets/css/blog.css")
+  link(rel="stylesheet" href="/assets/css/highlight.css")
 body
   .title #{ blog.title }
+  .subs
+    a.index(href="/") KID's blog
+    span.date #{ blog.date }
   .content.markdown !{ blog.content }

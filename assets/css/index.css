@@ -1,0 +1,55 @@
+body{
+  width: 720px;
+  margin: 60px auto;
+}
+
+.header{
+  display: flex;
+}
+
+.header .left{
+  flex: none;
+}
+
+.header .right{
+  flex: auto;
+  margin-left: 16px;
+}
+
+.face{
+  width: 150px;
+  height: 150px;
+  background-image: url(/assets/images/face.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+}
+
+.title{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.motto{
+  margin-top: 8px;
+}
+
+.blogs{
+  margin-top: 40px;
+}
+
+.blogs li{
+  list-style: none;
+  padding: 4px 0;
+}
+
+.blogs li .date{
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+.blogs li a{
+  display: inline-block;
+  font-size: 16px;
+}

@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 html(lang="en")
+  
 head
   meta(charset="UTF-8")
   title KID's Blog
-  link(rel="stylesheet" href="/assets/css/base.css")
+  meta(name="keywords" content="KID Blog Totoros 博客 前端 Node.js 编程 代码 开发者")
+  meta(name="description" content="KID Blog Totoros 博客 前端 Node.js 编程 代码 开发者")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+  link(rel="stylesheet" href="/assets/css/@.css")
   link(rel="stylesheet" href="/assets/css/index.css")
+    
 body
-  ul: each blog in blogs
-    li: a(href="#{ blog.path }.html") #{ blog.title }
+  .header
+    .left
+      .face
+    .right
+      .title KID's Blog
+      .motto 时の流れに身をまかせ
+  
+  ul.blogs: each blog in blogs
+    li
+      span.date #{ blog.date }
+      a(href="#{ blog.urlPath }.html") #{ blog.title }
